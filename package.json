@@ -1,0 +1,19 @@
+{
+  "name": "graphql-node_tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KIMJUNSICK/graphql-node_tutorial.git",
+  "author": "Kim Jun Sik <jinaganda5@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "graphql-yoga": "^1.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  }
+}
