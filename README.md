@@ -1,3 +1,4 @@
 # Follow graphql-node Tutorial
 
--[ ] What is GraphQL?
+- [x] What is GraphQL?
+- [x] What is graphql-yoga?
