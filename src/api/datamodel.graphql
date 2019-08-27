@@ -2,4 +2,18 @@ type Link {
   id: ID!
   description: String!
   url: String!
+  postBy: User
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  password: String!
+  links: [Link!]!
+}
+
+type AuthPayload {
+  token: String
+  user: User
 }
