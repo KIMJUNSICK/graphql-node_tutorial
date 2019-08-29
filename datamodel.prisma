@@ -3,6 +3,7 @@ type Link {
   description: String!
   url: String!
   postBy: User
+  votes: [Vote!]!
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }
@@ -15,4 +16,10 @@ type User {
   links: [Link!]!
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
+}
+
+type Vote {
+  id: ID! @id
+  link: Link!
+  user: User!
 }
